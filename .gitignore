@@ -16,3 +16,6 @@
 /tmp
 /config/database.yml
 /config/secret_token.rb
+
+# Ignore application configuration
+/config/application.yml
