@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Solitaire::Application.config.secret_key_base = '60ee6bee27b711cf594ccdab566d24e41fc175acc3331d80b5af70dd90bce67658951ac7166c6fe07bc033b987986d167edd6dc66428e212e6ff11e43ed070bf'
+Solitaire::Application.config.secret_key_base = ENV['APPLICATION_SECRET_BASE_TOKEN']
