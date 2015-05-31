@@ -7,8 +7,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<%= alert %>
+<%= notice %>
 <%= yield %>
+<%= link_to 'Sign In', new_user_session_path %>
 
 </body>
 </html>
